@@ -60,28 +60,19 @@ section h2 {
 
 #contact {
     background: #d3d3d3;
+    text-align: center;
 }
 
 #contact a {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: #007BFF;
+    background: #6c757d; /* Gray button */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 #contact a:hover {
-    background: #0056b3;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: #5a6268; /* Darker gray on hover */
 }
