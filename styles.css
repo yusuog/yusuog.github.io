@@ -58,6 +58,24 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+#contact {
+    background: #d3d3d3;
+}
+
+#contact a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact a:hover {
+    background: #0056b3;
+}
+
 footer {
     background: #333;
     color: #fff;
@@ -67,4 +85,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
