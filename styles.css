@@ -111,3 +111,127 @@ section h2 {
 .binary-link a:hover {
     background: #5a6268; /* Darker gray on hover */
 }
+
+/* Existing CSS rules */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+#about {
+    background: #f4f4f4;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+#about .about-container {
+    display: flex;
+    width: 100%;
+}
+
+#about .profile-image {
+    margin-right: 2rem;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+#about .about-text {
+    flex: 1;
+}
+
+#contact {
+    background: #fff; /* White background */
+    text-align: center;
+}
+
+#contact a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #6c757d; /* Gray button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact a:hover {
+    background: #5a6268; /* Darker gray on hover */
+}
+
+.binary-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.binary-text, .binary-link {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.binary-link {
+    text-align: right;
+}
+
+.binary-link a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #6c757d; /* Gray button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.binary-link a:hover {
+    background: #5a6268; /* Darker gray on hover */
+}
+
+/* New CSS rules */
+
+#compressietechnieken {
+    background: #f4f4f4;
+    padding: 2rem;
+}
+
