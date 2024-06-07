@@ -41,25 +41,31 @@ section h2 {
 
 #about {
     background: #f4f4f4;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+#about .about-container {
+    display: flex;
+    width: 100%;
+}
+
+#about .profile-image {
+    margin-right: 2rem;
 }
 
 #about img {
     border-radius: 50%;
     max-width: 150px;
-    margin-top: 1rem;
 }
 
-#projects {
-    background: #e2e2e2;
-}
-
-.project {
-    margin-bottom: 1rem;
+#about .about-text {
+    flex: 1;
 }
 
 #contact {
-    background: #d3d3d3;
+    background: #fff; /* White background */
     text-align: center;
 }
 
