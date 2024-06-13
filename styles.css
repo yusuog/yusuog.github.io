@@ -154,3 +154,13 @@ section h2 {
 .video-button:hover {
     background: #5a6268; /* Darker gray on hover */
 }
+
+.image-section {
+    text-align: right;
+    margin: 2rem 0;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
