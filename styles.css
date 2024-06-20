@@ -65,7 +65,7 @@ section h2 {
 }
 
 #contact {
-    background: #fff; /* White background */
+    background: #fff; /* achtergrond */
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ section h2 {
 }
 
 #contact a:hover {
-    background: #5a6268; /* Darker gray on hover */
+    background: #5a6268;  
 }
 
 .binary-content {
@@ -102,14 +102,14 @@ section h2 {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: #6c757d; /* Gray button */
+    background: #6c757d; /* button  */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .binary-link a:hover {
-    background: #5a6268; /* Darker gray on hover */
+    background: #5a6268; 
 }
 
 #compressietechnieken {
@@ -126,14 +126,14 @@ section h2 {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: #6c757d; /* Gray button */
+    background: #6c757d; /*  button */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .playlist-button:hover {
-    background: #5a6268; /* Darker gray on hover */
+    background: #5a6268; 
 }
 
 .video-section {
@@ -145,14 +145,14 @@ section h2 {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background: #6c757d; /* Gray button */
+    background: #6c757d; /* button */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .video-button:hover {
-    background: #5a6268; /* Darker gray on hover */
+    background: #5a6268; 
 }
 
 .image-section {
