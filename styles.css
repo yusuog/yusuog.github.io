@@ -1,11 +1,11 @@
-body {
+body { /* Basis stijlen voor de hele website */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-header {
+header {/* Stijlen voor de header en navigatie */
     background: #333;
     color: #fff;
     padding: 1rem 0;
@@ -31,7 +31,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+section {/* Stijlen voor secties */
     padding: 2rem;
 }
 
@@ -39,7 +39,7 @@ section h2 {
     margin-top: 0;
 }
 
-#about {
+#about {/* Stijlen voor de About Me sectie */
     background: #f4f4f4;
     display: flex;
     align-items: flex-start;
@@ -117,7 +117,7 @@ section h2 {
     padding: 2rem;
 }
 
-.playlist-section {
+.playlist-section {/* Stijlen voor de playlist en videoknoppen */
     margin-top: 2rem;
     text-align: center;
 }
@@ -168,6 +168,13 @@ section h2 {
     right: 10px;
 }
 
-.text-with-image {
+.text-with-image {/* Stijlen voor de Kleurmodellen pagina */
     position: relative;
+}
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 200px; /*  de grootte van de afbeelding */
+    margin: 10px;
 }
